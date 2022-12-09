@@ -1,0 +1,58 @@
+.container{
+    position: relative;
+    background: url(—Pngtree—watch\ clock\ numbers\ vector\ and_8654014.png) no-repeat;
+    background-size: 100%;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    top: 100px;
+    left: 610px;
+}
+
+#hours,#minutes,#seconds{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hours {
+    width: 3.8%;
+    height: 22%;
+    top: 29%;
+    left: 48.85%;
+    
+    background-color: white;
+}
+
+#minutes {
+    width: 1.6%;
+    height: 31%;
+    top: 19%;
+    left: 48.9%;
+    
+    background-color: white;
+
+}
+#seconds {
+    width: 0.4%;
+    height: 37%;
+    top: 14%;
+    left: 49.25%;
+    
+    background-color: white;
+
+    /* color: rgb(148, 84, 244); */
+}
+
+
+body{
+    background-image: linear-gradient(to right bottom,rgb(245, 79, 79), rgb(251, 143, 81),rgb(241, 241, 88),rgb(240, 178, 53)) ;
+    width: 100vh;
+    height: 100vh;
+    object-fit: cover;
+}
